@@ -1,0 +1,33 @@
+[2.712s] Invoking command in '/ros2_ws/src/maze_bot': PYTHONPATH=/ros2_ws/build/maze_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/maze_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_bot build --build-base /ros2_ws/build/maze_bot/build install --record /ros2_ws/build/maze_bot/install.log --single-version-externally-managed install_data
+[3.186s] running egg_info
+[3.186s] creating ../../build/maze_bot/maze_bot.egg-info
+[3.223s] writing ../../build/maze_bot/maze_bot.egg-info/PKG-INFO
+[3.224s] writing dependency_links to ../../build/maze_bot/maze_bot.egg-info/dependency_links.txt
+[3.224s] writing requirements to ../../build/maze_bot/maze_bot.egg-info/requires.txt
+[3.224s] writing top-level names to ../../build/maze_bot/maze_bot.egg-info/top_level.txt
+[3.225s] writing manifest file '../../build/maze_bot/maze_bot.egg-info/SOURCES.txt'
+[3.282s] reading manifest file '../../build/maze_bot/maze_bot.egg-info/SOURCES.txt'
+[3.284s] writing manifest file '../../build/maze_bot/maze_bot.egg-info/SOURCES.txt'
+[3.284s] running build
+[3.285s] running build_py
+[3.285s] creating /ros2_ws/build/maze_bot/build
+[3.286s] creating /ros2_ws/build/maze_bot/build/lib
+[3.288s] creating /ros2_ws/build/maze_bot/build/lib/maze_bot
+[3.289s] copying maze_bot/__init__.py -> /ros2_ws/build/maze_bot/build/lib/maze_bot
+[3.289s] running install
+[3.300s] running install_lib
+[3.332s] creating /ros2_ws/install/maze_bot/lib/python3.12/site-packages/maze_bot
+[3.334s] copying /ros2_ws/build/maze_bot/build/lib/maze_bot/__init__.py -> /ros2_ws/install/maze_bot/lib/python3.12/site-packages/maze_bot
+[3.335s] byte-compiling /ros2_ws/install/maze_bot/lib/python3.12/site-packages/maze_bot/__init__.py to __init__.cpython-312.pyc
+[3.337s] running install_data
+[3.337s] creating /ros2_ws/install/maze_bot/share/ament_index
+[3.338s] creating /ros2_ws/install/maze_bot/share/ament_index/resource_index
+[3.339s] creating /ros2_ws/install/maze_bot/share/ament_index/resource_index/packages
+[3.340s] copying resource/maze_bot -> /ros2_ws/install/maze_bot/share/ament_index/resource_index/packages
+[3.341s] copying package.xml -> /ros2_ws/install/maze_bot/share/maze_bot
+[3.341s] creating /ros2_ws/install/maze_bot/share/maze_bot/worlds
+[3.342s] running install_egg_info
+[3.375s] Copying ../../build/maze_bot/maze_bot.egg-info to /ros2_ws/install/maze_bot/lib/python3.12/site-packages/maze_bot-0.0.0-py3.12.egg-info
+[3.380s] running install_scripts
+[3.636s] writing list of installed files to '/ros2_ws/build/maze_bot/install.log'
+[3.696s] Invoked command in '/ros2_ws/src/maze_bot' returned '0': PYTHONPATH=/ros2_ws/build/maze_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/maze_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_bot build --build-base /ros2_ws/build/maze_bot/build install --record /ros2_ws/build/maze_bot/install.log --single-version-externally-managed install_data
