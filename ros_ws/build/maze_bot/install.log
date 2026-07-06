@@ -2,7 +2,8 @@
 /ros2_ws/install/maze_bot/lib/python3.12/site-packages/maze_bot/__pycache__/__init__.cpython-312.pyc
 /ros2_ws/install/maze_bot/share/ament_index/resource_index/packages/maze_bot
 /ros2_ws/install/maze_bot/share/maze_bot/package.xml
-/ros2_ws/install/maze_bot/share/maze_bot/worlds
+/ros2_ws/install/maze_bot/share/maze_bot/worlds/maze.sdf
+/ros2_ws/install/maze_bot/share/maze_bot/launch/maze_world.launch.py
 /ros2_ws/install/maze_bot/lib/python3.12/site-packages/maze_bot-0.0.0-py3.12.egg-info/top_level.txt
 /ros2_ws/install/maze_bot/lib/python3.12/site-packages/maze_bot-0.0.0-py3.12.egg-info/SOURCES.txt
 /ros2_ws/install/maze_bot/lib/python3.12/site-packages/maze_bot-0.0.0-py3.12.egg-info/requires.txt

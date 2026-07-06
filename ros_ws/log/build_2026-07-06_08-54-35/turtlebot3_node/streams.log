@@ -1,0 +1,102 @@
+[0.042s] Invoking command in '/ros2_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/ros2_ws/install/turtlebot3_msgs:/ros2_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/turtlebot3_msgs:/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/ros2_ws/install/turtlebot3_msgs/lib:/ros2_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/turtlebot3_node
+[0.180s] -- The C compiler identification is GNU 13.3.0
+[0.303s] -- The CXX compiler identification is GNU 13.3.0
+[0.346s] -- Detecting C compiler ABI info
+[0.582s] -- Detecting C compiler ABI info - done
+[0.595s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.595s] -- Detecting C compile features
+[0.596s] -- Detecting C compile features - done
+[0.617s] -- Detecting CXX compiler ABI info
+[0.862s] -- Detecting CXX compiler ABI info - done
+[0.877s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.877s] -- Detecting CXX compile features
+[0.878s] -- Detecting CXX compile features - done
+[0.889s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.213s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.375s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.512s] -- Found dynamixel_sdk: 4.0.5 (/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[1.533s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.800s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.870s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.976s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.080s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.216s] -- Found message_filters: 4.11.17 (/opt/ros/jazzy/share/message_filters/cmake)
+[2.396s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.408s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.666s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.719s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.769s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.046s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[3.142s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.206s] -- Found std_srvs: 5.3.8 (/opt/ros/jazzy/share/std_srvs/cmake)
+[3.282s] -- Found tf2: 0.36.21 (/opt/ros/jazzy/share/tf2/cmake)
+[3.320s] -- Found tf2_ros: 0.36.21 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[3.704s] -- Found turtlebot3_msgs: 2.4.0 (/ros2_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[3.943s] -- Configuring done (3.9s)
+[4.003s] -- Generating done (0.0s)
+[4.013s] -- Build files have been written to: /ros2_ws/build/turtlebot3_node
+[4.034s] Invoked command in '/ros2_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/turtlebot3_msgs:/ros2_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/turtlebot3_msgs:/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/ros2_ws/install/turtlebot3_msgs/lib:/ros2_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/turtlebot3_node
+[4.036s] Invoking command in '/ros2_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/ros2_ws/install/turtlebot3_msgs:/ros2_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/turtlebot3_msgs:/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/ros2_ws/install/turtlebot3_msgs/lib:/ros2_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/turtlebot3_node -- -j8 -l8
+[4.099s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.469s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.485s] -- Found dynamixel_sdk: 4.0.5 (/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[4.489s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[4.535s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.551s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.596s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.655s] -- Found message_filters: 4.11.17 (/opt/ros/jazzy/share/message_filters/cmake)
+[4.740s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.742s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.867s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.976s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[5.016s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[5.056s] -- Found std_srvs: 5.3.8 (/opt/ros/jazzy/share/std_srvs/cmake)
+[5.083s] -- Found tf2: 0.36.21 (/opt/ros/jazzy/share/tf2/cmake)
+[5.088s] -- Found tf2_ros: 0.36.21 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[5.245s] -- Found turtlebot3_msgs: 2.4.0 (/ros2_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[5.460s] -- Configuring done (1.4s)
+[5.509s] -- Generating done (0.0s)
+[5.519s] -- Build files have been written to: /ros2_ws/build/turtlebot3_node
+[5.627s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[5.628s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[5.633s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[5.633s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[5.640s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[5.646s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[5.647s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[5.662s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[6.845s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[15.839s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[17.307s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[34.705s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[35.741s] [ 85%] Built target turtlebot3_node_lib
+[35.794s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[41.251s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[43.827s] [100%] Built target turtlebot3_ros
+[43.855s] Invoked command in '/ros2_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/turtlebot3_msgs:/ros2_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/turtlebot3_msgs:/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/ros2_ws/install/turtlebot3_msgs/lib:/ros2_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/turtlebot3_node -- -j8 -l8
+[43.857s] Invoking command in '/ros2_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/ros2_ws/install/turtlebot3_msgs:/ros2_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/turtlebot3_msgs:/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/ros2_ws/install/turtlebot3_msgs/lib:/ros2_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/turtlebot3_node
+[43.875s] -- Install configuration: ""
+[43.876s] -- Execute custom install script
+[43.880s] -- Symlinking: /ros2_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[43.900s] -- Symlinking: /ros2_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[43.920s] -- Symlinking: /ros2_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[43.940s] -- Symlinking: /ros2_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[43.960s] -- Symlinking: /ros2_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[43.983s] -- Symlinking: /ros2_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[44.005s] -- Symlinking: /ros2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[44.029s] -- Symlinking: /ros2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[44.049s] -- Symlinking: /ros2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[44.070s] -- Symlinking: /ros2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[44.089s] -- Symlinking: /ros2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[44.108s] -- Symlinking: /ros2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[44.129s] -- Symlinking: /ros2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[44.154s] -- Symlinking: /ros2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[44.174s] -- Symlinking: /ros2_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[44.197s] -- Symlinking: /ros2_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[44.222s] -- Symlinking: /ros2_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[44.245s] -- Symlinking: /ros2_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[44.264s] -- Symlinking: /ros2_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[44.286s] -- Symlinking: /ros2_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[44.306s] -- Symlinking: /ros2_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[44.333s] Invoked command in '/ros2_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/turtlebot3_msgs:/ros2_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/turtlebot3_msgs:/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/ros2_ws/install/turtlebot3_msgs/lib:/ros2_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/turtlebot3_node

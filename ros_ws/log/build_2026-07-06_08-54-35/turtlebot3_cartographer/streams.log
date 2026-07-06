@@ -1,0 +1,45 @@
+[0.110s] Invoking command in '/ros2_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /ros2_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/turtlebot3_cartographer
+[0.849s] -- The C compiler identification is GNU 13.3.0
+[1.203s] -- The CXX compiler identification is GNU 13.3.0
+[1.290s] -- Detecting C compiler ABI info
+[1.649s] -- Detecting C compiler ABI info - done
+[1.668s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.668s] -- Detecting C compile features
+[1.672s] -- Detecting C compile features - done
+[1.720s] -- Detecting CXX compiler ABI info
+[2.104s] -- Detecting CXX compiler ABI info - done
+[2.129s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.129s] -- Detecting CXX compile features
+[2.129s] -- Detecting CXX compile features - done
+[2.224s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.770s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.985s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.533s] -- Configuring done (3.2s)
+[3.549s] -- Generating done (0.0s)
+[3.562s] -- Build files have been written to: /ros2_ws/build/turtlebot3_cartographer
+[3.591s] Invoked command in '/ros2_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /ros2_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/turtlebot3_cartographer
+[3.592s] Invoking command in '/ros2_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /ros2_ws/build/turtlebot3_cartographer -- -j8 -l8
+[3.750s] Invoked command in '/ros2_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /ros2_ws/build/turtlebot3_cartographer -- -j8 -l8
+[3.780s] Invoking command in '/ros2_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /ros2_ws/build/turtlebot3_cartographer
+[3.813s] -- Install configuration: ""
+[3.813s] -- Execute custom install script
+[3.813s] -- Symlinking: /ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[3.870s] -- Symlinking: /ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[3.927s] -- Symlinking: /ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[3.994s] -- Symlinking: /ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[4.047s] -- Symlinking: /ros2_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[4.091s] -- Symlinking: /ros2_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[4.131s] -- Symlinking: /ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[4.171s] -- Symlinking: /ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[4.210s] -- Symlinking: /ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[4.249s] -- Symlinking: /ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[4.289s] -- Symlinking: /ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[4.329s] -- Symlinking: /ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[4.386s] -- Symlinking: /ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[4.442s] -- Symlinking: /ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[4.488s] -- Symlinking: /ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[4.541s] -- Symlinking: /ros2_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[4.580s] -- Symlinking: /ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[4.616s] -- Symlinking: /ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[4.663s] -- Symlinking: /ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[4.702s] Invoked command in '/ros2_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /ros2_ws/build/turtlebot3_cartographer

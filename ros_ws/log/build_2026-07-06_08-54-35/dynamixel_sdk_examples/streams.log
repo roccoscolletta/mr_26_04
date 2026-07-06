@@ -1,0 +1,103 @@
+[0.036s] Invoking command in '/ros2_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces:/ros2_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces:/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/ros2_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/dynamixel_sdk_examples
+[0.147s] -- The C compiler identification is GNU 13.3.0
+[0.257s] -- The CXX compiler identification is GNU 13.3.0
+[0.292s] -- Detecting C compiler ABI info
+[0.482s] -- Detecting C compiler ABI info - done
+[0.492s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.493s] -- Detecting C compile features
+[0.493s] -- Detecting C compile features - done
+[0.514s] -- Detecting CXX compiler ABI info
+[0.732s] -- Detecting CXX compiler ABI info - done
+[0.742s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.742s] -- Detecting CXX compile features
+[0.744s] -- Detecting CXX compile features - done
+[0.755s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.028s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.160s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.278s] -- Found dynamixel_sdk: 4.0.5 (/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[1.281s] -- Found dynamixel_sdk_custom_interfaces: 4.0.5 (/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[1.396s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.433s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.476s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.517s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.614s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.745s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.755s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.982s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.013s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.050s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.214s] -- Found rclpy: 7.1.11 (/opt/ros/jazzy/share/rclpy/cmake)
+[2.225s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.487s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.492s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.492s] -- Configured cppcheck include dirs: /ros2_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples/include
+[2.492s] -- Configured cppcheck exclude dirs and/or files: 
+[2.496s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.496s] -- Configured cpplint exclude dirs and/or files: 
+[2.500s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.500s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.504s] -- Added test 'lint_cmake' to check CMake code style
+[2.508s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.513s] -- Added test 'uncrustify' to check C / C++ code style
+[2.514s] -- Configured uncrustify additional arguments: 
+[2.518s] -- Added test 'xmllint' to check XML markup files
+[2.525s] -- Configuring done (2.5s)
+[2.556s] -- Generating done (0.0s)
+[2.563s] -- Build files have been written to: /ros2_ws/build/dynamixel_sdk_examples
+[2.581s] Invoked command in '/ros2_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces:/ros2_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces:/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/ros2_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/dynamixel_sdk_examples
+[2.583s] Invoking command in '/ros2_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces:/ros2_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces:/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/ros2_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/dynamixel_sdk_examples -- -j8 -l8
+[2.635s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.956s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.967s] -- Found dynamixel_sdk: 4.0.5 (/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[2.970s] -- Found dynamixel_sdk_custom_interfaces: 4.0.5 (/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[3.009s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.021s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.037s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.060s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.146s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.201s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.203s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.436s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.607s] -- Found rclpy: 7.1.11 (/opt/ros/jazzy/share/rclpy/cmake)
+[3.609s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.766s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.768s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.768s] -- Configured cppcheck include dirs: /ros2_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples/include
+[3.768s] -- Configured cppcheck exclude dirs and/or files: 
+[3.770s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.770s] -- Configured cpplint exclude dirs and/or files: 
+[3.771s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.771s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.772s] -- Added test 'lint_cmake' to check CMake code style
+[3.772s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.774s] -- Added test 'uncrustify' to check C / C++ code style
+[3.774s] -- Configured uncrustify additional arguments: 
+[3.774s] -- Added test 'xmllint' to check XML markup files
+[3.776s] -- Configuring done (1.1s)
+[3.799s] -- Generating done (0.0s)
+[3.805s] -- Build files have been written to: /ros2_ws/build/dynamixel_sdk_examples
+[3.895s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[22.339s] [100%] [32m[1mLinking CXX executable read_write_node[0m
+[23.885s] [100%] Built target read_write_node
+[23.985s] Invoked command in '/ros2_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces:/ros2_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces:/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/ros2_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/dynamixel_sdk_examples -- -j8 -l8
+[23.986s] Invoking command in '/ros2_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces:/ros2_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces:/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/ros2_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/dynamixel_sdk_examples
+[24.052s] -- Install configuration: ""
+[24.062s] -- Execute custom install script
+[24.067s] -- Symlinking: /ros2_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[24.124s] -- Symlinking: /ros2_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node.py
+[24.256s] -- Symlinking: /ros2_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[24.327s] -- Symlinking: /ros2_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[24.395s] -- Symlinking: /ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[24.470s] -- Symlinking: /ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[24.520s] -- Symlinking: /ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[24.575s] -- Symlinking: /ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[24.643s] -- Symlinking: /ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[24.778s] -- Symlinking: /ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[24.843s] -- Symlinking: /ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[24.901s] -- Symlinking: /ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[24.966s] -- Symlinking: /ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[25.031s] -- Symlinking: /ros2_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[25.118s] -- Symlinking: /ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[25.176s] -- Symlinking: /ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[25.207s] -- Symlinking: /ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[25.240s] Invoked command in '/ros2_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces:/ros2_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces:/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/ros2_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/dynamixel_sdk_examples
