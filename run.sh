@@ -9,4 +9,5 @@ docker run -it \
     --volume="$(pwd)/ros_ws:/ros2_ws" \
     --name="ros2_maze_container" \
     --rm \
+    -e TURTLEBOT3_MODEL=waffle \
     ros2_maze_explorer bash

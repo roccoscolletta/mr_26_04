@@ -9,8 +9,12 @@ setup.py
 ../../build/maze_bot/maze_bot.egg-info/zip-safe
 launch/maze_world.launch.py
 maze_bot/__init__.py
+maze_bot.egg-info/PKG-INFO
+maze_bot.egg-info/SOURCES.txt
+maze_bot.egg-info/dependency_links.txt
+maze_bot.egg-info/requires.txt
+maze_bot.egg-info/top_level.txt
+maze_bot.egg-info/zip-safe
 resource/maze_bot
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+rviz/maze_bot.rviz
 worlds/maze.sdf

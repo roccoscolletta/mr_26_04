@@ -1,0 +1,19 @@
+[3.603s] Invoking command in '/ros2_ws/build/turtlebot3_teleop': PYTHONPATH=/ros2_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros2_ws/build/turtlebot3_teleop/build --no-deps symlink_data --force
+[4.232s] running develop
+[4.609s] running egg_info
+[4.654s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[4.655s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[4.656s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[4.656s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[4.656s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[4.718s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[4.721s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[4.766s] running build_ext
+[4.766s] Creating /ros2_ws/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3-teleop.egg-link (link to .)
+[4.766s] Installing teleop_keyboard script to /ros2_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[4.767s] 
+[4.767s] Installed /ros2_ws/build/turtlebot3_teleop
+[4.767s] running symlink_data
+[4.768s] symbolically linking /ros2_ws/build/turtlebot3_teleop/resource/turtlebot3_teleop -> /ros2_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[4.768s] symbolically linking /ros2_ws/build/turtlebot3_teleop/package.xml -> /ros2_ws/install/turtlebot3_teleop/share/turtlebot3_teleop
+[4.884s] Invoked command in '/ros2_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/ros2_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros2_ws/build/turtlebot3_teleop/build --no-deps symlink_data --force

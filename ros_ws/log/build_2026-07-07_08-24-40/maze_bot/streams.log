@@ -1,0 +1,15 @@
+[1.784s] Invoking command in '/ros2_ws/build/maze_bot': PYTHONPATH=/ros2_ws/build/maze_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/maze_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros2_ws/build/maze_bot/build --no-deps symlink_data
+[2.156s] running develop
+[2.375s] running egg_info
+[2.395s] writing maze_bot.egg-info/PKG-INFO
+[2.395s] writing dependency_links to maze_bot.egg-info/dependency_links.txt
+[2.395s] writing requirements to maze_bot.egg-info/requires.txt
+[2.396s] writing top-level names to maze_bot.egg-info/top_level.txt
+[2.434s] reading manifest file 'maze_bot.egg-info/SOURCES.txt'
+[2.435s] writing manifest file 'maze_bot.egg-info/SOURCES.txt'
+[2.455s] running build_ext
+[2.455s] Creating /ros2_ws/install/maze_bot/lib/python3.12/site-packages/maze-bot.egg-link (link to .)
+[2.456s] 
+[2.456s] Installed /ros2_ws/build/maze_bot
+[2.456s] running symlink_data
+[2.528s] Invoked command in '/ros2_ws/build/maze_bot' returned '0': PYTHONPATH=/ros2_ws/build/maze_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/maze_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros2_ws/build/maze_bot/build --no-deps symlink_data

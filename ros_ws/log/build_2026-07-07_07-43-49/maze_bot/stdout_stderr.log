@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing maze_bot.egg-info/PKG-INFO
+writing dependency_links to maze_bot.egg-info/dependency_links.txt
+writing requirements to maze_bot.egg-info/requires.txt
+writing top-level names to maze_bot.egg-info/top_level.txt
+reading manifest file 'maze_bot.egg-info/SOURCES.txt'
+writing manifest file 'maze_bot.egg-info/SOURCES.txt'
+running build_ext
+Creating /ros2_ws/install/maze_bot/lib/python3.12/site-packages/maze-bot.egg-link (link to .)
+
+Installed /ros2_ws/build/maze_bot
+running symlink_data
+symbolically linking /ros2_ws/build/maze_bot/resource/maze_bot -> /ros2_ws/install/maze_bot/share/ament_index/resource_index/packages
+symbolically linking /ros2_ws/build/maze_bot/package.xml -> /ros2_ws/install/maze_bot/share/maze_bot
+symbolically linking /ros2_ws/build/maze_bot/worlds/maze.sdf -> /ros2_ws/install/maze_bot/share/maze_bot/worlds
+symbolically linking /ros2_ws/build/maze_bot/launch/maze_world.launch.py -> /ros2_ws/install/maze_bot/share/maze_bot/launch
